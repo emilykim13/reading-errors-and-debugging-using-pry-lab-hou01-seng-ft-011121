@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
@@ -8,5 +8,4 @@ binding.pry
     string
   end
 end
-
-# string cannot be coerced into integer
+snake_it_up("surprise!")
